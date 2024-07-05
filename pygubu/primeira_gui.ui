@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4">
+  <project>
+    <settings />
+    <customwidgets />
+  </project>
+  <object class="tk.Tk" id="tk1">
+    <property name="background">#ffffff</property>
+    <property name="geometry">800x600</property>
+    <property name="height">200</property>
+    <property name="highlightbackground">#ff0000</property>
+    <property name="highlightcolor">#804040</property>
+    <property name="iconbitmap">Captura de tela 2024-06-25 143425.png</property>
+    <property name="iconphoto">Captura de tela 2024-06-25 143425.png</property>
+    <property name="title" translatable="yes">minha gui</property>
+    <property name="width">200</property>
+    <child>
+      <object class="ttk.Label" id="label1">
+        <property name="background">#0080ff</property>
+        <property name="font">{Arial} 20 {}</property>
+        <property name="foreground">#ffff00</property>
+        <property name="text" translatable="yes">dfkjlçsdfjsdlf
+</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="button1">
+        <property name="text" translatable="yes">button1</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
