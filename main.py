@@ -17,6 +17,7 @@ text.pack()
 text.bind("<KeyRelease>", verificar_tamanho)#bind significa evento, vamos aprender logo mais. key release é tecla solta após pressionar.
 text.delete("1.0", tk.END)
 
+
 janela.mainloop()
 
 
